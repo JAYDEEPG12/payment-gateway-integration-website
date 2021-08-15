@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(217, 240, 13);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgba(139, 128, 235, 0.829);
+    color: rgb(255, 253, 253);
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgba(101, 111, 250, 0.829);
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width:100px;
+    height:100px ;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    left:25%;
+    transform: translate(-50%-50%);
+}
+
+.title h1{
+    color: rgb(255, 255, 255);
+    font-size:70px;
+}
+
+.title h2{
+    position: absolute;
+    top: 95%;
+    left: 29%;
+    color: rgb(204, 192, 192);
+    font-size:20px;
+}
+
+.slogan{
+    position: absolute;
+    background-color: rgba(155, 224, 241, 0.828);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slogan p1{
+    position: absolute;
+    background-color: rgba(255, 111, 154, 0.664);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    top: 73%;
+    left: 46%;
+    transform: translateX(-50%);
+    padding: 2px 1rem;
+    font-size:19px;
+}
+
+.slogan p{
+    color: black;
+    padding: 2px 2rem;
+    font-weight: 600;
+}
+.slogan p span{
+    color: rgb(112, 66, 5);
+    font-size:29px;
+}
+
+.button{
+    position: absolute;
+    top:45%;
+    left:38%;
+    transform: translate(-50%-50%);
+}
+
+.btn{
+    border: 2px solid  rgb(196, 140, 140);
+    padding: 10px 30px;
+    color:  rgb(8, 233, 94);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.6s ease;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 70%!important;
+}
+
+.rz{
+    position: absolute;
+    top: 72%;
+    left: 43%;
+
+}
